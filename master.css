@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+.contenitore{
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  width: 800px;
+  margin: auto;
+  padding: 70px;
+  margin-top: 20px;
+}
+
+
+/* Header e nav */
+header, nav{
+  text-align: center;
+}
+
+header > img{
+  width: 150px;
+}
+
+header > div{
+  color: lime;
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav{
+  background-color: lime;
+  padding: 7px;
+}
+
+ nav > button{
+  font-size: 10px;
+}
+
+
+/* Da qui inizia il main */
+main{
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+
+main > section{
+  margin-top: 20px;
+}
+
+.testo-piccolo{
+  font-size: 12px;
+}
+
+.barracolore1{
+  background-color: orange;
+  width: 250px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.barracolore2{
+  background-color: lime;
+  width: 350px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+.barracolore3{
+  background-color: red;
+  width: 100px;
+  height: 20px;
+  border-radius: 5px;
+}
